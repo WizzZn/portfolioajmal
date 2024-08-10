@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ahammed Ajmal</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaqueries.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+
+</head>
+
+
+<body>
+  <nav id="desktop-nav">
+    <div class="logo">Ahammed Ajmal</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#services">services</a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">Ahammed Ajmal</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        <li><a href="#services" onclick="toggleMenu()">services</a></li>
+      </div>
+    </div>
+  </nav>
+  
+  <section id="profile">
+
+    <div class="section__pic-container">
+      <img class="rounded" src="./assets/image 01.png" alt="ajmal monte pic" />
+    </div>
+    
+    <div class="section__text">
+      <br>
+      <p class="section__text__p1">Hello, I'm</p>
+      <h1 class="title">Ahammed Ajmal T K</h1>
+      <p class="section__text__p2">Game developer</p>
+      <div class="btn-container">
+        <button class="btn btn-color-2" onclick="window.open('./assets/Ajmalcv2.pdf')">
+          Download CV
+        </button>
+
+        <button class=" btn btn-color-1" onclick="location.href='./#contact'">
+          Contact Info
+        </button>
+      </div>
+      <div id="socials-container">
+        <img src="./assets/linkedin-sn.webp" alt="My LinkedIn profile" class="icon"
+          onclick="location.href='https://linkedin.com/in/ajmalzyn-dev'" />
+        <img src="./assets/github-sn.webp" alt="My Github profile" class="icon"
+          onclick="location.href='https://github.com/WizzZn'" />
+      </div>
+    </div>
+  </section>
+  <section id="about">
+    <!-- <p class="section__text__p1">Get To Know More</p> -->
+    <h1 class="title">About Me</h1><br>
+    <div class="section-container">
+      <div class="section__pic-container">
+        <img src="./assets/image 01.png" alt="Profile picture" class="about-pic" />
+      </div>
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <img src="./assets/experience-sn.webp" alt="skill icon" class="icon" />
+            <h3>Skills</h3>
+            <p>code optimisation, code development and testing <br> basic C# script ,3D and 2D design,Unity and Gameplay programming,Real time creation</p>
+          </div>
+          <div class="details-container-2">
+            <img src="./assets/education-sn.webp" alt="Educatn icon" class="icon" />
+            <h3>Education</h3>
+            <p>B.Com Finance</p>
+            <p>Diploma in Computer Application</p>
+          </div>
+        </div>
+        <div class="text-container">
+          <p>
+            👋 Welcome to my coding journey! <br><br>
+        
+            🌱 Enthusiastic Software Developer | 💡 Real-Time Creation Enthusiast <br>
+        
+            📚 Currently diving deep into the world of software development, I'm on a mission to transform ideas into impactful digital solutions. <br>
+        
+            🖥️ Exploring gameplay magic with: Unity, 3D and 2D design <br>
+            💻 Delving into coding with: C#, code optimization, development, and testing <br>
+            📝 Continuously documenting my learning through innovative projects <br>
+        
+            🚀 Join me as I tinker, code, and conquer the realm of real-time creation. Let's learn and grow together! <br><br>
+        
+            🔗 Connect with me and explore my coding journey. Open to collaboration and eager to learn from fellow developers. <br>
+        </p>
+        
+        </div>
+      </div>
+    </div>
+    <img src="./assets/arrow-sn.webp" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
+  </section>
+  <section id="experience">
+    <p class="section__text__p1">Explore My</p>
+    <h1 class="title">Experience</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <h2 class="experience-sub-title">Associate Game Developer (Internship)</h2>
+          <div class="article-container">
+            <article>
+              <img src="./assets/checkmark-sn.webp" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Unity</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark-sn.webp" alt="Experience icon" class="icon" />
+              <div>
+                <h3>C#</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            
+           
+          </div>
+        </div>
+        <div class="details-container">
+          <h2 class="experience-sub-title">Other</h2>
+          <div class="article-container">
+            <article>
+              <img src="./assets/checkmark-sn.webp" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Version Control</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark-sn.webp" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Blender</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark-sn.webp" alt="Experience icon" class="icon" />
+              <div>
+                <h3>C++</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            
+      </div>
+    </div>
+    <img src="./assets/arrow-sn.webp" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
+  </section>
+  <section id="projects">
+    <p class="section__text__p1">Browse My Recent</p>
+    <h1 class="title">Projects</h1><br>
+    <div class="experience-details-container-2">
+      <div class="about-containers">
+        <div class="details-container color-container" style="background-image: url(./assets/Golden\ Grove\ -\ Gif.gif); background-repeat: no-repeat; background-size: cover;">
+          <div class="article-container" >
+            <img src="./assets/golden grove.jpeg" alt="Project 1" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title" style="color: white;">Golden Grove</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"  style="color: white;" onclick="location.href='https://github.com/WizzZn/Golden-Grove'">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn" style="color: white;" onclick="location.href='https://play.unity.com/en/games/8bc8cbc4-2a7e-4a04-9db3-e94797631574/golden-grove'">
+              Live Demo
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/prison brickout.jpg" alt="Project 2" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Prison break</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/WizzZn/Project_002-Game'">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://sanu9331.github.io/swiggy/'">
+              Live Demo
+            </button>
+          </div>
+        </div>
+     
+      </div>
+    </div>
+    <img src="./assets/arrow-sn.webp" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
+  </section>
+
+
+
+
+
+
+
+
+  <!-- </section> -->
+  <section id="services">
+    <br>
+
+
+
+    <p class="section__text__p1">
+      <br><br> My
+    </p>
+    <h1 class="title">Services</h1><br>
+
+    <div class="experience-details-container-2">
+      <div class="about-containers">
+        <div class="details-container color-container">
+
+          <h2 class="experience-sub-title project-title">Platform Game Development</h2>
+          <p>As a platform game developer, I specialize in creating immersive and engaging gaming experiences. From designing dynamic 2D and 3D environments using Unity, to programming responsive gameplay mechanics with C#, I ensure every aspect of development contributes to an enjoyable and seamless player experience. My expertise covers both the creative and technical sides of game development, bringing ideas to life in the form of captivating platform games.</p>
+      </div>
+      
+    <img src="./assets/arrow-sn.webp" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
+  </section>
+  <br><br>
+
+  <!-- <br><br><br> -->
+  <section id="contact">
+
+
+
+
+
+
+
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img src="./assets/email-sn.webp" alt="Email icon" class="icon contact-icon email-icon" />
+        <p><a href="mailto:examplemail@gmail.com">ajmalaz916@gmail.com</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img src="./assets/linkedin-sn.webp" alt="LinkedIn icon" class="icon contact-icon" />
+        <p><a href="https://www.linkedin.com/feed/">LinkedIn</a></p>
+      </div>
+    </div>
+
+
+
+  </section>
+  <footer bg-primary>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links ">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <br>
+    <p>Copyright &#169; 2023 Ajmal. All Rights Reserved.</p>
+  </footer>
+  <div class="footer-2">
+
+  </div>
+  <script src="script.js"></script>
+  <script src="index.js"></script>
+
+  <script src="https://smtpjs.com/v3/smtp.js">
+  </script>
+
+
+
+</body>
+
+</html>
